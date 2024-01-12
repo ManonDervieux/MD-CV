@@ -1,0 +1,448 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!--========== BOX ICONS ==========-->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+
+        <!--========== CSS ==========-->
+        <link rel="stylesheet" href="assets/css/styles.css">
+
+        <title>Responsive resume cv</title>
+    </head>
+    <body>
+        <!--========== HEADER ==========-->
+        <header class="l-header" id="header">
+            <nav class="nav db-container">
+                <a href="#" class="nav__logo">Dervieux</a>
+
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+
+                        <li class="class__item">
+                            <a href="#home" class="nav__link">
+                                <i class="bx bx-home-alt nav__icon"></i>Acceuil
+                            </a>
+                        </li>
+
+                        <li class="class__item">
+                            <a href="#profile" class="nav__link">
+                                <i class="bx bx-user nav__icon"></i>Profil
+                            </a>
+                        </li>
+
+                        <li class="class__item">
+                            <a href="#education" class="nav__link">
+                                <i class="bx bx-book nav__icon"></i>Formation
+                            </a>
+                        </li>
+
+                        <li class="class__item">
+                            <a href="#skills" class="nav__link">
+                                <i class="bx bxs-receipt nav__icon"></i>Compétences
+                            </a>
+                        </li>
+
+                        <li class="class__item">
+                            <a href="#experience" class="nav__link">
+                                <i class="bx bx-briefcase-alt nav__icon"></i>Experience
+                            </a>
+                        </li>
+
+                        <li class="class__item">
+                            <a href="#certificates" class="nav__link">
+                                <i class="bx bx-award nav__icon"></i>Diplômes
+                            </a>
+                        </li>
+
+                        <li class="class__item">
+                            <a href="#references" class="nav__link">
+                                <i class="bx bx-link-external nav__icon"></i>Bénévolat
+                            </a>
+                        </li>
+
+                    </ul>
+                </div>
+
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class="bx bx-grid-alt"></i>
+                </div>
+            </nav>  
+        </header>
+
+        <main class="l-main bd-container">
+            <!-- All elements within this div, is generated in PDF -->
+            <div class="resume" id="area-cv">
+                <div class="resume__left">
+                    <!--========== HOME ==========-->
+                    <section class="home" id="home">
+                        <div class="home__container section bd-grid">
+                            <div class="home__data bd-grid">
+                                <img src="assets/img/woman.png" alt="" class="home__img">
+
+                                <h1 class="home__title">DERVIEUX <b>MANON</b></h1>
+                                <h3 class="home__profession"><!-- Web developper --></h3>
+
+                                <div>
+                                    <a download="" href="assets/pdf/ResumeCv.pdf" class="home__button-movil">Télécharger</a>
+                                </div>
+                            </div>
+
+                            <div class="home__address bd-grid">
+                                <span class="home__information">
+                                    <i class="bx bx-map home__icon"></i>Lyon - France
+                                </span>
+
+                                <span class="home__information">
+                                    <i class="bx bx-envelope-open home__icon"></i>manon.dervieux1992@gmail.com
+                                </span>
+
+                                <span class="home__information">
+                                    <i class="bx bx-phone home__icon"></i>06-14-81-82-34
+                                </span>
+
+                                <span class="home__information">
+                                    <i class="bx bx-cake home__icon"></i>01 / 10 / 1992
+                                </span>
+                            </div>
+                        </div>
+
+                        <!-- Theme change button -->
+                        
+                        <i class="bx bx-moon change-theme" title="Theme" id="theme-button"></i>
+
+                        <!-- Button to generate and download the pdf. -->
+                        <i class="bx bx-download generate-pdf" title="Generate PDF" id="resume-button"></i>
+                    </section>          
+                    
+                    <!--========== SOCIAL ==========-->
+                    <!-- <section class="social section">
+                        <h2 class="section-title">Médias sociaux</h2>
+
+                        <div class="social__container bd-grid">
+                            <a href="" target="_blank" class="social__link">
+                                <i class="bx bxl-linkedin-square social__icon"></i> www.linkedin.com/in/manon-dervieux
+                            </a>
+                        </div>
+                        
+                    </section>
+ -->
+                    <!--========== PROFILE ==========-->
+                    <!-- <section class="profile section" id="profile">
+                        <h2 class="section-title">Profil</h2>
+
+                        <p class="profile__description">Je suis une femme de 31 ans. Je viens de finir ma formation de développeur web Full-Stack spécialité React.</p>
+                    </section>
+                     -->
+                    <!--========== EDUCATION ==========-->
+                    <section class="education section" id="education">
+                        <h2 class="section-title">Formation</h2>
+                        
+                        <div class="education__container bd-grid">
+                            <div class="education__content">
+                                <div class="education__time">
+                                    <span class="education__rounder"></span>
+                                    <span class="education__line"></span>
+                                </div>
+
+                                <div class="education__data bd-grid">
+                                    <h3 class="education__title">DEVELOPPEUR FULLSTACK <br>SPECIALITE REACT</h3>
+                                    <span class="education__studies">Ecole O'Clock</span>
+                                    <span class="education__year">2023 - 2023</span>
+                                </div>
+                            </div>
+
+                            <div class="education__content">
+                                <div class="education__time">
+                                    <span class="education__rounder"></span>
+                                    <span class="education__line"></span>
+                                </div>
+
+                                <div class="education__data bd-grid">
+                                    <h3 class="education__title">SECRETAIRE MEDICALE</h3>
+                                    <span class="education__studies">CNED</span>
+                                    <span class="education__year">2021 - 2022</span>
+                                </div>
+                            </div>
+
+                            <div class="education__content">
+                                <div class="education__time">
+                                    <span class="education__rounder"></span>
+                                    <span class="education__line"></span>
+                                </div>
+
+                                <div class="education__data bd-grid">
+                                    <h3 class="education__title">BTS COMPTABILITE</h3>
+                                    <span class="education__studies">CNED</span>
+                                    <span class="education__year">2020 - 2021</span>
+                                </div>
+                            </div>
+
+                            <div class="education__content">
+                                <div class="education__time">
+                                    <span class="education__rounder"></span>
+                                    <span class="education__line"></span>
+                                </div>
+
+                                <div class="education__data bd-grid">
+                                    <h3 class="education__title">LICENCE LANGUE CHINOISE</h3>
+                                    <span class="education__studies">UNIVERSITE RENNES 2</span>
+                                    <span class="education__year">2016 - 2020</span>
+                                </div>
+                            </div>
+
+                            <div class="education__content">
+                                <div class="education__time">
+                                    <span class="education__rounder"></span>
+                                    <span class="education__line"></span>
+                                </div>
+
+                                <div class="education__data bd-grid">
+                                    <h3 class="education__title">DUL Japonais</h3>
+                                    <span class="education__studies">UNIVERSITE RENNES 2</span>
+                                    <span class="education__year">2014 - 2017</span>
+                                </div>
+                            </div>
+
+                            <div class="education__content">
+                                <div class="education__time">
+                                    <span class="education__rounder"></span>
+                                    <span class="education__line"></span>
+                                </div>
+
+                                <div class="education__data bd-grid">
+                                    <h3 class="education__title">LICENCE PSYCHOLOGIE</h3>
+                                    <span class="education__studies">UNIVERSITE RENNES 2</span>
+                                    <span class="education__year">2011 - 2017</span>
+                                </div>
+                            </div>
+
+                            <div class="education__content">
+                                <div class="education__time">
+                                    <span class="education__rounder"></span>
+                                    <!-- <span class="education__line"></span> -->
+                                </div>
+
+                                <div class="education__data bd-grid">
+                                    <h3 class="education__title">BAC LITTERRAIRE</h3>
+                                    <span class="education__studies">Lycée Saint-Julien</span>
+                                    <span class="education__year">2010</span>
+                                </div>
+                            </div>
+
+                        </div>
+                    </section>
+
+
+                    <!--========== SKILLS  ==========-->
+                    <section class="skills section" id="skills">
+                        <h2 class="section-title">Compétences</h2>
+
+                        <div class="skills__content bd-grid">
+                            <ul class="skills__data">
+                                <li class="skills__name">
+                                    <span class="skills__circle"></span> HTML
+                                </li>
+
+                                <li class="skills__name">
+                                    <span class="skills__circle"></span> CSS
+                                </li>
+
+                                <li class="skills__name">
+                                    <span class="skills__circle"></span> Javascript
+                                </li>
+
+                                <li class="skills__name">
+                                    <span class="skills__circle"></span> PostgreSQL
+                                </li>
+
+                                
+                            </ul>
+
+                            <ul class="skills__data">
+                                <li class="skills__name">
+                                    <span class="skills__circle"></span> Tailwind
+                                </li>
+
+                                <li class="skills__name">
+                                    <span class="skills__circle"></span> React
+                                </li>
+
+                                <li class="skills__name">
+                                    <span class="skills__circle"></span> NodeJs
+                                </li>
+
+                                <li class="skills__name">
+                                    <span class="skills__circle"></span> GitHub
+                                </li>
+
+                            </ul>
+                        </div>
+                    </section>
+
+                </div>
+           <div class="resume__right">
+                    <!--========== EXPERIENCE ==========-->
+                    <section class="experience section" id="experience">
+                        <h2 class="section-title">Experience</h2>
+
+                        <div class="experience__container bd-grid">
+
+                            <div class="experience__content">
+                                <div class="experience__time">
+                                    <span class="experience__rounder"></span>
+                                    <span class="experience__line"></span>
+                                </div>
+
+                                <div class="experience__data bd-grid">
+                                    <h3 class="experience__title">Vendeuse en Boutique</h3>
+                                    <span class="experience__company">Octobre 2022 | Jeff de Bruges | CDI</span>
+                                    <p class="experience__description">Vente de produits en boutique. Tenue du magasin, approvisionnement en rayon, préparation des produits.</p>
+                                </div>
+                            </div>
+
+                            <div class="experience__content">
+                                <div class="experience__time">
+                                    <span class="experience__rounder"></span>
+                                    <span class="experience__line"></span>
+                                </div>
+
+                                <div class="experience__data bd-grid">
+                                    <h3 class="experience__title">Secrétaire médicale</h3>
+                                    <span class="experience__company">De Janvier à Mars 2022 | Centre Hospitalier de Condrieu, SSIAD | Stage</span>
+                                    <p class="experience__description">Stage dans le service de soins à domicile. Tâches principales : tenir les dossiers médicaux, gérer les tournées, les réunions, stocks du service. Dans un autres service: gestion des appels, transports de patients, comptes-rendus médicaux.</p>
+                                </div>
+                            </div>
+
+                            <div class="experience__content">
+                                <div class="experience__time">
+                                    <span class="experience__rounder"></span>
+                                    <!-- <span class="experience__line"></span> -->
+                                </div>
+
+                                <div class="experience__data bd-grid">
+                                    <h3 class="experience__title">Employé polyvalent de cuisine</h3>
+                                    <span class="experience__company">Juillet 2021 | Restalliance | Intérim</span>
+                                    <p class="experience__description">Travail en restauration collective dans un centre de soins à Saint-Prim. Tavail en plonge, service, préparation de certains plats.</p>
+                                </div>
+                            </div>
+
+                        </div>
+                    </section>
+
+                    <!--========== CERTIFICATES ==========-->
+                    <section class="certificate section" id="certificates">
+                        <h2 class="section-title">Diplômes</h2>
+
+                        <div class="certificate__container bd-grid">
+                            <div class="certificate__content">
+                                <h3 class="certificate__title">Certification Développeur FullStack - Front-end (Back-end en cours) (2023)</h3>
+                                <p class="certificate__description">Certification attestant de mon niveau en développement web. Seule la partie Front-end est pour le moment validée.</p>
+                            </div>
+
+                            <div class="certificate__content">
+                                <h3 class="certificate__title">Certification secrétariat médicale (2023)</h3>
+                                <p class="certificate__description">Permet la pratique de secrétaire médicale dans diverses structures.</p>
+                            </div>
+
+                            <div class="certificate__content">
+                                <h3 class="certificate__title">DUL Japonais</h3>
+                                <p class="certificate__description">Diplôme en langue japonaise. Obtenu à l'université Rennes 2.</p>
+                            </div>
+
+                            <div class="certificate__content">
+                                <h3 class="certificate__title">BAC Littéraire</h3>
+                                <p class="certificate__description">Baccalairéat littéraire, spécialité anglais.</p>
+                            </div>
+                        </div>
+                    </section>
+
+                    <!--========== REFERENCES ==========-->
+                    <section class="references section" id="references">
+                        <h2 class="section-title">Bénévolat</h2>
+
+                        <div class="certificate__content">
+                            <h3 class="certificate__title">UFB (Urgence Fourrières Bretagne)</h3>
+                            <p class="certificate__description">Famille d'acceuil de transition<!--  entre la sortie de fourrière et le départ en famille d'adoption ou en association -->.</p>
+                        </div>
+
+                       <!--  <div class="references__container bd-grid">
+                            <div class="references__content bd-grid">
+                                <span class="references__subtitle">UFB (Urgence Fourrières Bretagne)</span>
+                                <h3 class="references__title">Famille d'acceuil transitionnelle</h3>
+                                <ul class="references__contact">
+                                    <li>Phone: 999 - 777 - 666</li>
+                                    <li>Email: user@email.com</li>
+                                </ul>
+                            </div>
+
+                        </div> -->
+                    </section>
+
+                    <!--========== LANGUAGES ==========-->
+                    <section class="languages section">
+                        <h2 class="section-title">Langues</h2>
+
+                        <div class="languages__container">
+                            <ul class="languages__content bd-grid">
+                                <li class="languages__name">
+                                    <span class="languages__circle"></span>Anglais
+                                </li>
+
+                                <li class="languages__name">
+                                    <span class="languages__circle"></span>Japonais
+                                </li>
+
+                                <li class="languages__name">
+                                    <span class="languages__circle"></span>Chinois
+                                </li>
+                            </ul>
+                        </div>
+                    </section>
+                    
+                    <!--========== INTERESTS ==========-->
+                    <section class="interests section">
+                        <h2 class="section-title">Loisirs</h2>
+                        
+                        <div class="interests__container bd-grid">
+                            <div class="interests__content">
+                                <i class="bx bx-headphone interests__icon"></i>
+                                <span class="interests__name">Musique</span>
+                            </div>
+
+                            <div class="interests__content">
+                                <i class="bx bxs-joystick interests__icon"></i>
+                                <span class="interests__name">Jeux vidéos</span>
+                            </div>
+
+                            <div class="interests__content">
+                                <i class="bx bx-book interests__icon"></i>
+                                <span class="interests__name">Lecture</span>
+                            </div>
+
+                            <div class="interests__content">
+                                <i class="bx bxs-leaf interests__icon"></i>
+                                <span class="interests__name">Plantes</span>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+            </div>        
+        </main>
+
+        <!--========== SCROLL TOP ==========-->
+        
+        <a href="#" class="scrolltop" id="scroll-top">
+            <i class="bx bx-up-arrow-alt scrolltop__arrow"></i>
+        </a>
+
+        <!--========== HTML2PDF ==========-->
+        <script src="assets/js/html2pdf.bundle.min.js"></script>
+
+        <!--========== MAIN JS ==========-->
+        <script src="assets/js/main.js"></script>
+        
+    </body>
+</html>
